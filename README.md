@@ -1,4 +1,6 @@
-<img width="4014" height="207" alt="image" src="https://github.com/user-attachments/assets/b98e1317-f9c6-4acf-bb49-1148b2995309" />## 🚀 BUILDING A SERVERLESS WEB APP 🚀
+<img width="4014" height="207" alt="image" src="https://github.com/user-attachments/assets/b98e1317-f9c6-4acf-bb49-1148b2995309" />
+
+## 🚀 BUILDING A SERVERLESS WEB APP 🚀
 
 This repository shows how we can deploy a serverless webapp in Aws
 
@@ -58,10 +60,20 @@ we need secure our application outside of aws mean in the internet. For this we 
 <img width="1641" height="769" alt="image" src="https://github.com/user-attachments/assets/8912fe10-bbcb-4768-8718-0ecf793cd6ca" />
 
 ## 🔹Amazon Lambda
+Lambda function is used to invoke a container for our application when request came. By using lambda we don't need to manage servers and there is auto scaling. In lambda there is pay-per-request pricing only.
 
+<img width="1705" height="822" alt="image" src="https://github.com/user-attachments/assets/50164993-0117-4c8a-92db-2b5774c18723" />
 
+## Amazon s3
 
+The application files of our application will be stored in the s3 buckets in the form of objects.
 
+<img width="1681" height="823" alt="image" src="https://github.com/user-attachments/assets/eed4ad32-26ee-4c55-8cee-3c6b0e8c21bc" />
+
+## API Gateway
+Api gateeway is used to trigger the lambda funtion and and handles requests and responses from the route53.This gateway invokes the lambda through the user request.
+
+<img width="1694" height="831" alt="image" src="https://github.com/user-attachments/assets/268befde-d725-446f-96ce-3114ee4008d4" />
 
 
 
