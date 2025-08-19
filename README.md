@@ -1,4 +1,4 @@
-<img width="4014" height="207" alt="image" src="https://github.com/user-attachments/assets/b98e1317-f9c6-4acf-bb49-1148b2995309" />
+
 
 ## 🚀 BUILDING A SERVERLESS WEB APP 🚀
 
